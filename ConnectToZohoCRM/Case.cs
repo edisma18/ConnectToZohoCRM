@@ -20,7 +20,7 @@ public record class data()
 {
     public Case caseCRM { get; set; }
 }
-public record class Deal_Name()
+public record class Deal_Name1()
 {
     [JsonProperty("Deal_Name")]
     public string name { get; set; }
@@ -43,7 +43,7 @@ public record class Case()
 
     [JsonProperty("Deal_Name")]
 
-    public Deal_Name Deal_Name { get; set; } 
+    public Deal_Name1 Deal_Name { get; set; } 
 }
 
 public class Token
